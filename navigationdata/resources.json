@@ -1,0 +1,74 @@
+{
+  "navigationName": "RESOURCES",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-ResourceService",
+      "scopes": [
+        {
+          "scopeName": "attribute",
+          "feature": "attribute configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        },
+        {
+          "scopeName": "group",
+          "feature": "group configuration access",
+          "actions": [
+            "read"
+          ]
+        },
+        {
+          "scopeName": "ardsresource",
+          "feature": "ardsresource configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        },
+        {
+          "scopeName": "task",
+          "feature": "task configuration access",
+          "actions": [
+            "read"
+          ]
+        },
+        {
+          "scopeName": "resourcetaskattribute",
+          "feature": "resourcetaskattribute configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName": "DVP-UserService",
+      "scopes": [
+        {
+          "scopeName": "user",
+          "feature": "user configuration access",
+          "actions": [
+            "read"
+          ]
+        },
+        {
+          "scopeName": "userProfile",
+          "feature": "userProfile configuration access",
+          "actions": [
+            "read",
+            "write"
+          ]
+        }
+      ]
+    }
+
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "resourceName": "DVP-PhoneNumberTrunkService",
+  "scopes": [
+    {
+      "scopeName": "number",
+      "feature": "number access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "trunk",
+      "feature": "trunk access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "BuyNumbers",
+      "feature": "BuyNumbers access",
+      "actions": [
+        "read",
+        "write"
+      ]
+    }
+  ]
+}

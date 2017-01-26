@@ -1,0 +1,40 @@
+{
+  "navigationName": "TICKET_TRIGGER",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-LiteTicket",
+      "scopes": [
+        {
+          "scopeName": "triggers",
+          "feature": "triggers configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName": "DVP-UserService",
+      "scopes": [
+        {
+          "scopeName": "userGroup",
+          "feature": "userGroup configuration access",
+          "actions": [
+            "read"
+          ]
+        },
+        {
+          "scopeName": "user",
+          "feature": "user configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    }
+  ]
+}

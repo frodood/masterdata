@@ -1,0 +1,72 @@
+{
+  "resourceName": "DVP-ResourceService",
+  "scopes": [
+    {
+      "scopeName": "attribute",
+      "feature": "attribute access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "group",
+      "feature": "group access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "ardsresource",
+      "feature": "ardsresource access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "resourcetaskattribute",
+      "feature": "resourcetaskattribute access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "task",
+      "feature": "task access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "productivity",
+      "feature": "agent productivity access",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "scopeName": "Shared",
+      "feature": "Shared access",
+      "actions": [
+        "read",
+        "write"
+      ]
+    },
+    {
+      "scopeName": "taskinfo",
+      "feature": "taskinfo access",
+      "actions": [
+        "read"
+      ]
+    }
+  ]
+}

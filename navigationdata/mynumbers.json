@@ -1,0 +1,73 @@
+{  "navigationName": "MY_NUMBERS",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-PhoneNumberTrunkService",
+      "scopes": [
+        {
+          "scopeName": "number",
+          "feature": "number configuration access",
+          "actions": [
+            "read",
+            "write"
+          ]
+        },
+        {
+          "scopeName": "trunk",
+          "feature": "trunk configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        },
+        {
+          "scopeName": "trunkoperator",
+          "feature": "trunkoperator access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName": "DVP-LimitHandler",
+      "scopes": [
+        {
+          "scopeName": "limit",
+          "feature": "limit configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName": "DVP-RuleService",
+      "scopes": [
+        {
+          "scopeName": "callrule",
+          "feature": "callrule configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName": "DVP-VoxboneAPI",
+      "scopes": [
+        {
+          "scopeName": "voxbone",
+          "feature": "voxbone api access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        }
+      ]
+    }
+  ]
+}

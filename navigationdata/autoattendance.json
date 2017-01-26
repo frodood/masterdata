@@ -1,0 +1,21 @@
+{
+  "navigationName": "AUTOATTENDANCE",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-AutoAttendant",
+      "scopes": [
+        {
+          "scopeName": "autoattendance",
+          "feature": "autoattendance configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        }
+      ]
+    }
+  ]
+}

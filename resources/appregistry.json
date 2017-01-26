@@ -1,0 +1,14 @@
+{
+  "resourceName": "DVP-APPRegistry",
+  "scopes": [
+    {
+      "scopeName": "appreg",
+      "feature": "appreg access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    }
+  ]
+}

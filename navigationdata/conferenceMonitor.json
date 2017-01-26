@@ -1,0 +1,33 @@
+{
+  "navigationName" : "CONFERENCE_MONITOR",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus" : true,
+  "resources" : [
+    {
+      "resourceName" : "DVP-Conference",
+      "scopes" : [
+        {
+          "scopeName" : "conference",
+          "feature" : "conference access",
+          "actions" : [
+            "read",
+            "write",
+            "delete"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName" : "DVP-SIPUserEndpointService",
+      "scopes" : [
+        {
+          "scopeName" : "extension",
+          "feature" : "extension access",
+          "actions" : [
+            "read"
+          ]
+        }
+      ]
+    }
+  ]
+}

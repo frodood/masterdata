@@ -1,0 +1,14 @@
+{
+  "resourceName": "DVP-QueueMusic",
+  "scopes": [
+    {
+      "scopeName": "queuemusic",
+      "feature": "queuemusic access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    }
+  ]
+}

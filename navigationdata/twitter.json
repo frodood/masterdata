@@ -1,0 +1,21 @@
+{
+  "navigationName": "TWITTER",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-SocialConnector",
+      "scopes": [
+        {
+          "scopeName": "social",
+          "feature": "socials configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        }
+      ]
+    }
+  ]
+}

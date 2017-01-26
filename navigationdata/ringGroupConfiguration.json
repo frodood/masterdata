@@ -1,0 +1,43 @@
+{  "navigationName": "RING_GROUP_CONFIGURATION",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-SIPUserEndpointService",
+      "scopes": [
+        {
+          "scopeName": "sipuser",
+          "feature": "sipuser configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        },
+
+        {
+          "scopeName": "group",
+          "feature": "group configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName": "DVP-ClusterConfiguration",
+      "scopes": [
+        {
+          "scopeName": "enduser",
+          "feature": "enduser configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    }
+
+  ]
+}

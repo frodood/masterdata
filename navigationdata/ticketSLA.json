@@ -1,0 +1,63 @@
+{  "navigationName": "TICKET_SLA",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-LiteTicket",
+      "scopes": [
+        {
+          "scopeName": "sla",
+          "feature": "sla configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName": "DVP-UserService",
+      "scopes": [
+        {
+          "scopeName": "userGroup",
+          "feature": "userGroup configuration access",
+          "actions": [
+            "read"
+          ]
+        },
+        {
+          "scopeName": "user",
+          "feature": "user configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName": "DVP-ARDSLiteService",
+      "scopes": [
+        {
+          "scopeName": "requestmeta",
+          "feature": "requestmeta configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName": "DVP-Templates",
+      "scopes": [
+        {
+          "scopeName": "template",
+          "feature": "template configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    }
+  ]
+}

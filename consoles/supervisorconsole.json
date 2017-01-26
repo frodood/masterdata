@@ -1,0 +1,4 @@
+{
+  "consoleName": "SUPERVISOR_CONSOLE",
+  "consoleUserRoles": ["admin","supervisor"]
+}

@@ -1,0 +1,21 @@
+{
+  "navigationName": "DYNAMICFORM",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-LiteTicket",
+      "scopes": [
+        {
+          "scopeName": "forms",
+          "feature": "forms configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        }
+      ]
+    }
+  ]
+}

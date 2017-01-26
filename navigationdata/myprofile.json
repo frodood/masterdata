@@ -1,0 +1,31 @@
+{  "navigationName": "MYPROFILE",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-UserService",
+      "scopes": [
+        {
+          "scopeName": "myUserProfile",
+          "feature": "myUserProfile access",
+          "actions": [
+            "read",
+            "write"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName": "DVP-SIPUserEndpointService",
+      "scopes": [
+        {
+          "scopeName": "sipuser",
+          "feature": "sipuser configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    }
+  ]
+}

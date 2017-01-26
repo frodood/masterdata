@@ -1,0 +1,4 @@
+{
+  "consoleName": "AGENT_CONSOLE",
+  "consoleUserRoles": ["admin","supervisor","agent"]
+}

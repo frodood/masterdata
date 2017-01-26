@@ -1,0 +1,23 @@
+{
+  "resourceName": "DVP-ToDoListService",
+  "scopes": [
+    {
+      "scopeName": "todo",
+      "feature": "todo list access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "remind",
+      "feature": "remind configuration access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "navigationName": "USERS",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-UserService",
+      "scopes": [
+        {
+          "scopeName": "user",
+          "feature": "user configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        },
+        {
+          "scopeName": "userScope",
+          "feature": "userScope configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        },
+        {
+          "scopeName": "console",
+          "feature": "console configuration access",
+          "actions": [
+            "read"
+          ]
+        },
+        {
+          "scopeName": "userAppScope",
+          "feature": "userAppScope configuration access",
+          "actions": [
+            "read",
+            "write"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName": "DVP-SIPUserEndpointService",
+      "scopes": [
+        {
+          "scopeName": "sipuser",
+          "feature": "sipuser configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        }
+      ]
+    }
+  ]
+}

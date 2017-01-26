@@ -1,0 +1,14 @@
+{
+  "resourceName": "DVP-RuleService",
+  "scopes": [
+    {
+      "scopeName": "callrule",
+      "feature": "callrule access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    }
+  ]
+}

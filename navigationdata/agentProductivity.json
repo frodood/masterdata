@@ -1,0 +1,30 @@
+{  "navigationName": "AGENT_PRODUCTIVITY",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-ResourceService",
+      "scopes": [
+        {
+          "scopeName": "productivity",
+          "feature": "productivity configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName": "DVP-ARDSMonitoring",
+      "scopes": [
+        {
+          "scopeName": "ardsresource",
+          "feature": "ardsresource configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    }
+  ]
+}

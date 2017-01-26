@@ -1,0 +1,23 @@
+{
+  "resourceName" : "DVP-Interactions",
+  "scopes" : [
+    {
+      "scopeName" : "engagement",
+      "feature" : "engagement configuration access",
+      "actions" : [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName" : "inbox",
+      "feature" : "inbox configuration access",
+      "actions" : [
+        "read",
+        "write",
+        "delete"
+      ]
+    }
+  ]
+}

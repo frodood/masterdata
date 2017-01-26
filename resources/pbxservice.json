@@ -1,0 +1,23 @@
+{
+  "resourceName": "DVP-PBXService",
+  "scopes": [
+    {
+      "scopeName": "pbxadmin",
+      "feature": "pbxadmin access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "pbxuser",
+      "feature": "pbxuser access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    }
+  ]
+}

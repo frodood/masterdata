@@ -1,0 +1,29 @@
+{
+  "navigationName": "REALTIME_QUEUE",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-DashBoard",
+      "scopes": [
+        {
+          "scopeName": "dashboardevent",
+          "feature": "dashboardevent configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        },
+        {
+          "scopeName": "dashboardgraph",
+          "feature": "Dispatch configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    }
+
+  ]
+}

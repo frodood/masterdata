@@ -1,0 +1,68 @@
+{
+  "resourceName": "DVP-LiteTicket",
+  "scopes": [
+    {
+      "scopeName": "triggers",
+      "feature": "triggers configuration access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "sla",
+      "feature": "sla configuration access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "ticket",
+      "feature": "ticket configuration access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "tag",
+      "feature": "tag configuration access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "forms",
+      "feature": "forms configuration access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "ticketview",
+      "feature": "ticketview configuration access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "timer",
+      "feature": "timer configuration access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    }
+  ]
+}

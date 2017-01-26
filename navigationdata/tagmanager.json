@@ -1,0 +1,22 @@
+{
+  "navigationName": "TAGMANAGER",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-LiteTicket",
+      "scopes": [
+        {
+          "scopeName": "tag",
+          "feature": "tag configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        }
+      ]
+    }
+
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "resourceName": "DVP-ARDSLiteService",
+  "scopes": [
+    {
+      "scopeName": "requestserver",
+      "feature": "requestserver access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "requestmeta",
+      "feature": "requestmeta access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "ardsresource",
+      "feature": "ardsresource access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "ardsrequest",
+      "feature": "ardsrequest access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "queue",
+      "feature": "queue access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    }
+  ]
+}

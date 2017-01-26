@@ -1,0 +1,32 @@
+{
+  "resourceName": "DVP-LimitHandler",
+  "scopes": [
+    {
+      "scopeName": "schedule",
+      "feature": "schedule access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "appointment",
+      "feature": "appointment access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "limit",
+      "feature": "limit access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    }
+  ]
+}

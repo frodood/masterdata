@@ -1,0 +1,168 @@
+{
+  "packageName": "BASIC",
+  "packageType": "CALLCENTER",
+  "navigationType": "BASIC",
+  "description":"",
+  "consoleAccessLimit": [
+    {
+      "accessType": "admin",
+      "accessLimit": 1
+    },
+    {
+      "accessType": "supervisor",
+      "accessLimit": 1
+    },
+    {
+      "accessType": "agent",
+      "accessLimit": 1
+    }
+  ],
+  "consoles":[
+    "SUPERVISOR_CONSOLE",
+    "AGENT_CONSOLE"
+  ],
+  "veeryTask":["CALL"],
+  "price": 0,
+  "resources": [
+    {
+      "resourceName": "DVP-ARDSLiteService",
+      "scopes": [
+        {
+          "scopeName": "ardsresource",
+          "feature": "agent access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ],
+          "limit": 3
+        },
+        {
+          "scopeName": "ardsrequest",
+          "feature": "request access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ],
+          "limit": -1
+        },
+        {
+          "scopeName": "requestmeta",
+          "feature": "requestmeta access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ],
+          "limit": -1
+        },
+        {
+          "scopeName": "queue",
+          "feature": "queue access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ],
+          "limit": -1
+        },
+        {
+          "scopeName": "requestserver",
+          "feature": "requestserver access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ],
+          "limit": -1
+        }
+      ]
+    },
+    {
+      "resourceName": "DVP-ResourceService",
+      "scopes": [
+        {
+          "scopeName": "attribute",
+          "feature": "attribute access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ],
+          "limit": -1
+        },
+        {
+          "scopeName": "group",
+          "feature": "group access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ],
+          "limit": -1
+        },
+        {
+          "scopeName": "ardsresource",
+          "feature": "ardsresource access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ],
+          "limit": -1
+        },
+        {
+          "scopeName": "resourcetaskattribute",
+          "feature": "resourcetaskattribute access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ],
+          "limit": -1
+        },
+        {
+          "scopeName": "task",
+          "feature": "task access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ],
+          "limit": -1
+        },
+        {
+          "scopeName": "productivity",
+          "feature": "productivity access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ],
+          "limit": -1
+        },
+        {
+          "scopeName": "Shared",
+          "feature": "Shared access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ],
+          "limit": -1
+        },
+        {
+          "scopeName": "taskinfo",
+          "feature": "taskinfo access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ],
+          "limit": -1
+        }
+      ]
+    }
+  ]
+}

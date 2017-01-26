@@ -1,0 +1,14 @@
+{
+  "resourceName": "DVP-SocialConnector",
+  "scopes": [
+    {
+      "scopeName": "social",
+      "feature": "social configuration access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    }
+  ]
+}

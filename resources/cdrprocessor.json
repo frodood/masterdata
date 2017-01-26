@@ -1,0 +1,12 @@
+{
+  "resourceName": "DVP-CDRProcessor",
+  "scopes": [
+    {
+      "scopeName": "cdr",
+      "feature": "cdr access",
+      "actions": [
+        "read"
+      ]
+    }
+  ]
+}

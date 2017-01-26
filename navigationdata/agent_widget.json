@@ -1,0 +1,41 @@
+{
+  "navigationName": "AGENT_WIDGET",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-ARDSLiteService",
+      "scopes": [
+        {
+          "scopeName": "ardsresource",
+          "feature": "ardsresource configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        },
+        {
+          "scopeName": "requestmeta",
+          "feature": "requestmeta configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName": "DVP-MonitorRestAPI",
+      "scopes": [
+        {
+          "scopeName": "sysmonitoring",
+          "feature": "sysmonitoring configuration access",
+          "actions": [
+            "read",
+            "write"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "resourceName": "DVP-EventService",
+  "scopes": [
+    {
+      "scopeName": "events",
+      "feature": "events configuration access",
+      "actions": [
+        "read"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "navigationName": "ATTRIBUTES",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-ResourceService",
+      "scopes": [
+        {
+          "scopeName": "attribute",
+          "feature": "attribute configuration access",
+          "actions": [
+            "read",
+            "write"
+          ]
+        },
+        {
+          "scopeName": "group",
+          "feature": "group configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        }
+      ]
+    }
+
+  ]
+}

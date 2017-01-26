@@ -1,0 +1,40 @@
+{
+  "navigationName": "AGENT_DASHBOARD",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-DashBoard",
+      "scopes": [
+        {
+          "scopeName": "dashboardevent",
+          "feature": "dashboardevent configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        },
+        {
+          "scopeName": "dashboardgraph",
+          "feature": "dashboardgraph configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName": "DVP-ARDSMonitoring",
+      "scopes": [
+        {
+          "scopeName": "ardsresource",
+          "feature": "ardsresource configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    }
+  ]
+}

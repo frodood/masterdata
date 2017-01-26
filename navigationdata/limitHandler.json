@@ -1,0 +1,21 @@
+{
+  "navigationName": "LimitHandler",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-LimitHandler",
+      "scopes": [
+        {
+          "scopeName": "limit",
+          "feature": "limit configuration access",
+          "actions": [
+            "read",
+            "write"
+          ]
+        }
+      ]
+    }
+
+  ]
+}

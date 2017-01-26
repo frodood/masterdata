@@ -1,0 +1,21 @@
+{
+  "resourceName": "DVP-DashBoard",
+  "scopes": [
+    {
+      "scopeName": "dashboardevent",
+      "feature": "dashboardevent access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "dashboardgraph",
+      "feature": "dashboardgraph access",
+      "actions": [
+        "read"
+      ]
+    }
+  ]
+}

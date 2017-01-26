@@ -1,0 +1,27 @@
+{
+  "resourceName": "DVP-MonitorRestAPI",
+  "scopes": [
+    {
+      "scopeName": "sysmonitoring",
+      "feature": "sysmonitoring access",
+      "actions": [
+        "read",
+        "write"
+      ]
+    },
+    {
+      "scopeName": "Dispatch",
+      "feature": "Dispatch access",
+      "actions": [
+        "write"
+      ]
+    },
+    {
+      "scopeName": "caching",
+      "feature": "caching access",
+      "actions": [
+        "write"
+      ]
+    }
+  ]
+}

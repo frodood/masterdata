@@ -1,0 +1,26 @@
+{  "navigationName": "CALL_MONITOR",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-MonitorRestAPI",
+      "scopes": [
+        {
+          "scopeName": "sysmonitoring",
+          "feature": "sysmonitoring configuration access",
+          "actions": [
+            "read"
+          ]
+        },
+        {
+          "scopeName": "Dispatch",
+          "feature": "Dispatch configuration access",
+          "actions": [
+            "write"
+          ]
+        }
+      ]
+    }
+
+  ]
+}

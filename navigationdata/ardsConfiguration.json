@@ -1,0 +1,46 @@
+{  "navigationName": "ARDS_CONFIGURATION",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-ARDSLiteService",
+      "scopes": [
+        {
+          "scopeName": "requestmeta",
+          "feature": "requestmeta configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        },
+        {
+          "scopeName": "requestserver",
+          "feature": "requestserver configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName": "DVP-ResourceService",
+      "scopes": [
+        {
+          "scopeName": "group",
+          "feature": "group configuration access",
+          "actions": [
+            "read"
+          ]
+        },
+        {
+          "scopeName": "task",
+          "feature": "task configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    }
+  ]
+}

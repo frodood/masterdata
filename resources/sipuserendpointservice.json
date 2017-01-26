@@ -1,0 +1,48 @@
+{
+  "resourceName": "DVP-SIPUserEndpointService",
+  "scopes": [
+    {
+      "scopeName": "number",
+      "feature": "number access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "sipuser",
+      "feature": "sipuser access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "group",
+      "feature": "group access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "context",
+      "feature": "context access",
+      "actions": [
+        "read",
+        "write"
+      ]
+    },
+    {
+      "scopeName": "extension",
+      "feature": "extension access",
+      "actions": [
+        "read",
+        "write"
+      ]
+    }
+  ]
+}

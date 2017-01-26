@@ -1,0 +1,21 @@
+{
+  "navigationName": "TEMPLATEMAKER",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-Templates",
+      "scopes": [
+        {
+          "scopeName": "template",
+          "feature": "template configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        }
+      ]
+    }
+  ]
+}

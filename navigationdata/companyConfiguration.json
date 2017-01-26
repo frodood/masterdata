@@ -1,0 +1,62 @@
+{  "navigationName": "COMPANY_CONFIGURATION",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-SIPUserEndpointService",
+      "scopes": [
+        {
+          "scopeName": "context",
+          "feature": "context configuration access",
+          "actions": [
+            "read",
+            "write"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName": "DVP-ClusterConfiguration",
+      "scopes": [
+        {
+          "scopeName": "enduser",
+          "feature": "enduser configuration access",
+          "actions": [
+            "read",
+            "write"
+          ]
+        },
+        {
+          "scopeName": "cluster",
+          "feature": "cluster configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName": "DVP-LiteTicket",
+      "scopes": [
+        {
+          "scopeName": "tickettypes",
+          "feature": "tickettypes configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        },
+        {
+          "scopeName": "ticketstatusflow",
+          "feature": "ticketstatusflow configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        }
+      ]
+    }
+  ]
+}

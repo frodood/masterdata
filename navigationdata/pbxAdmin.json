@@ -1,0 +1,34 @@
+{
+  "navigationName" : "PABX_ADMIN",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus" : true,
+  "resources" : [
+    {
+      "resourceName" : "DVP-PBXService",
+      "scopes" : [
+        {
+          "scopeName" : "pbxadmin",
+          "feature" : "pbxadmin access",
+          "actions" : [
+            "read",
+            "write",
+            "delete"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName" : "DVP-SIPUserEndpointService",
+      "scopes" : [
+        {
+          "scopeName" : "sipuser",
+          "feature" : "sipuser access",
+          "actions" : [
+            "read",
+            "write"
+          ]
+        }
+      ]
+    }
+  ]
+}

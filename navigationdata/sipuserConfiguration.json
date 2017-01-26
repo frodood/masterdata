@@ -1,0 +1,47 @@
+{ "navigationName": "SIPUSER_CONFIGURATION",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-SIPUserEndpointService",
+      "scopes": [
+        {
+          "scopeName": "sipuser",
+          "feature": "sipuser configuration access",
+          "actions": [
+            "read",
+            "write"
+          ]
+        },
+        {
+          "scopeName": "context",
+          "feature": "context configuration access",
+          "actions": [
+            "read"
+          ]
+        },
+        {
+          "scopeName": "extension",
+          "feature": "extension configuration access",
+          "actions": [
+            "read",
+            "write"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName": "DVP-ClusterConfiguration",
+      "scopes": [
+        {
+          "scopeName": "enduser",
+          "feature": "enduser configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    }
+
+  ]
+}

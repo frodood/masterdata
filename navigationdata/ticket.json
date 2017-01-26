@@ -1,0 +1,154 @@
+{  "navigationStatus" : true,
+  "navigationName" : "TICKET",
+  "navigationTypes": ["CALLCENTER"],
+  "resources" : [
+    {
+      "resourceName" : "DVP-EventService",
+      "scopes" : [
+        {
+          "scopeName" : "events",
+          "feature" : "events configuration access",
+          "actions" : [
+            "read"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName" : "DVP-UserService",
+      "scopes" : [
+        {
+          "scopeName" : "externalUser",
+          "feature" : "externalUser configuration access",
+          "actions" : [
+            "read"
+          ]
+        },
+        {
+          "scopeName" : "userGroup",
+          "feature" : "userGroup configuration access",
+          "actions" : [
+            "read",
+            "write",
+            "delete"
+          ]
+        },
+        {
+          "scopeName" : "user",
+          "feature" : "user configuration access",
+          "actions" : [
+            "read"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName" : "DVP-Interactions",
+      "scopes" : [
+        {
+          "scopeName" : "engagement",
+          "feature" : "engagement configuration access",
+          "actions" : [
+            "read",
+            "write",
+            "delete"
+          ]
+        },
+        {
+          "scopeName" : "inbox",
+          "feature" : "inbox configuration access",
+          "actions" : [
+            "read",
+            "write",
+            "delete"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName" : "DVP-LiteTicket",
+      "scopes" : [
+        {
+          "scopeName" : "ticket",
+          "feature" : "ticket configuration access",
+          "actions" : [
+            "read",
+            "write"
+          ]
+        },
+        {
+          "scopeName" : "tag",
+          "feature" : "tag configuration access",
+          "actions" : [
+            "read"
+          ]
+        },
+        {
+          "scopeName" : "timer",
+          "feature" : "timer configuration access",
+          "actions" : [
+            "read",
+            "write",
+            "delete"
+          ]
+        },
+        {
+          "scopeName" : "ticketview",
+          "feature" : "ticketview configuration access",
+          "actions" : [
+            "read",
+            "write",
+            "delete"
+          ]
+        },
+        {
+          "scopeName" : "forms",
+          "feature" : "forms configuration access",
+          "actions" : [
+            "read"
+          ]
+        },
+        {
+          "scopeName": "tickettypes",
+          "feature": "tickettypes configuration access",
+          "actions": [
+            "read"
+          ]
+        },
+        {
+          "scopeName": "ticketstatusflow",
+          "feature": "ticketstatusflow configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName" : "DVP-FileService",
+      "scopes" : [
+        {
+          "scopeName" : "fileservice",
+          "feature" : "fileservice configuration access",
+          "actions" : [
+            "read",
+            "write"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName" : "DVP-IntegrationAPI",
+      "scopes" : [
+        {
+          "scopeName" : "integration",
+          "feature" : "integration api access",
+          "actions" : [
+            "read",
+            "write"
+          ]
+        }
+      ]
+    }
+  ]
+}

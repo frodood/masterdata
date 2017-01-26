@@ -1,0 +1,33 @@
+{ "navigationName": "HOLD_MUSIC",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-QueueMusic",
+      "scopes": [
+        {
+          "scopeName": "queuemusic",
+          "feature": "queuemusic configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName": "DVP-FileService",
+      "scopes": [
+        {
+          "scopeName": "fileservice",
+          "feature": "fileservice configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    }
+
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "resourceName" : "DVP-VoxboneAPI",
+  "scopes" : [
+    {
+      "scopeName" : "voxbone",
+      "feature" : "voxbone api access",
+      "actions" : [
+        "read",
+        "write",
+        "delete"
+      ]
+    }
+  ]
+}

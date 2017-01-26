@@ -1,0 +1,20 @@
+{
+  "navigationName": "SLA_BREAKDOWN",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-ARDSMonitoring",
+      "scopes": [
+        {
+          "scopeName": "queue",
+          "feature": "queue configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    }
+
+  ]
+}

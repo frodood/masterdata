@@ -1,0 +1,14 @@
+{
+  "resourceName": "DVP-Conference",
+  "scopes": [
+    {
+      "scopeName": "conference",
+      "feature": "conference access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    }
+  ]
+}

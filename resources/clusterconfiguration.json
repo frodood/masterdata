@@ -1,0 +1,49 @@
+{
+  "resourceName": "DVP-ClusterConfiguration",
+  "scopes": [
+    {
+      "scopeName": "cluster",
+      "feature": "cluster access",
+      "actions": [
+        "read",
+        "write"
+      ]
+    },
+    {
+      "scopeName": "callserver",
+      "feature": "callserver access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "network",
+      "feature": "network access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "enduser",
+      "feature": "enduser access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "scopeName": "profile",
+      "feature": "profile access",
+      "actions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    }
+  ]
+}

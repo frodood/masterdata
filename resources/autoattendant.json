@@ -1,0 +1,14 @@
+{
+  "resourceName": "DVP-AutoAttendant",
+  "scopes": [
+    {
+      "scopeName": "autoattendance",
+      "feature": "autoattendance configuration access",
+      "actions": [
+        "read",
+		"write",
+		"delete"
+      ]
+    }
+  ]
+}

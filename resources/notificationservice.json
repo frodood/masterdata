@@ -1,0 +1,13 @@
+{
+  "resourceName": "DVP-NotificationService",
+  "scopes": [
+    {
+      "scopeName": "notification",
+      "feature": "notification access",
+      "actions": [
+        "read",
+        "write"
+      ]
+    }
+  ]
+}

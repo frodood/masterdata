@@ -1,0 +1,58 @@
+{
+  "navigationName": "RULES",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-RuleService",
+      "scopes": [
+        {
+          "scopeName": "callrule",
+          "feature": "callrule configuration access",
+          "actions": [
+            "read",
+            "write",
+            "delete"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName": "DVP-SIPUserEndpointService",
+      "scopes": [
+        {
+          "scopeName": "context",
+          "feature": "context configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName": "DVP-PhoneNumberTrunkService",
+      "scopes": [
+        {
+          "scopeName": "trunk",
+          "feature": "trunk configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceName": "DVP-APPRegistry",
+      "scopes": [
+        {
+          "scopeName": "appreg",
+          "feature": "appreg configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    }
+
+  ]
+}

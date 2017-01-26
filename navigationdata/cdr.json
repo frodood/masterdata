@@ -1,0 +1,20 @@
+{
+  "navigationName": "CDR",
+  "navigationTypes": ["CALLCENTER"],
+  "navigationStatus": true,
+  "resources": [
+    {
+      "resourceName": "DVP-CDRProcessor",
+      "scopes": [
+        {
+          "scopeName": "cdr",
+          "feature": "cdr configuration access",
+          "actions": [
+            "read"
+          ]
+        }
+      ]
+    }
+
+  ]
+}
